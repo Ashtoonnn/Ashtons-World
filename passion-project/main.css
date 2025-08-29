@@ -1,0 +1,28 @@
+p {
+    background: rgb(123, 46, 248); 
+    text-align: center;
+    color: aliceblue;
+}
+h1 {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-size: 400%;
+}
+img {
+    display: block;
+    margin: auto;
+}
+body {
+    background-color: orange;
+}
+h4 {
+    text-align: center;
+}
+li {
+    text-align: center;
+}
+a {
+    text-align: center;
+    color: aliceblue;
+}

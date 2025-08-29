@@ -1,0 +1,36 @@
+body {
+    background:yellow;
+    color:rgb(5, 16, 12);
+    font-family:cursive;
+}
+
+p{
+        background:rgb(2, 2, 18);
+        color:beige;
+        border:2px solid;
+        padding:20px;
+        margin:10px;
+}
+
+p:hover {
+    background: purple;
+    color: orange;
+}
+
+.banner {
+    text-align: center;
+    font-size: 170%;
+    border-style: dashed; 
+}
+
+a {
+    color:brown;
+    text-decoration:none;
+    font-style:italic;
+    font-weight: bold;
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+}
+
