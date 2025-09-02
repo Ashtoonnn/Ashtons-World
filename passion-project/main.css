@@ -1,11 +1,11 @@
 p {
-    background: rgb(123, 46, 248); 
+    background: rgb(31, 22, 44); 
     text-align: center;
     color: aliceblue;
 }
 h1 {
     text-align: center;
-    color: blue;
+    color: rgb(248, 248, 255);
     font-style: italic;
     font-size: 400%;
 }
@@ -14,9 +14,12 @@ img {
     margin: auto;
 }
 body {
-    background-color: orange;
+    background-color: rgb(231, 199, 199);
 }
-h4 {
+h3 {
+    text-align: center;
+}
+h4 { 
     text-align: center;
 }
 li {
