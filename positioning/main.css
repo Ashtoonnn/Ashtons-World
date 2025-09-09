@@ -1,0 +1,155 @@
+body {
+    background: rgb(185, 222, 185);
+}
+
+img {
+    max-width:100%;
+}
+
+.block {
+    background:lightgoldenrodyellow;
+    margin:10px;
+    padding: 10px;
+}
+
+.inline {
+    background:lightpink;
+    /* for inline elements, margin and padding don't function like they do with block elements */
+    margin: 10px;
+    padding:10px; 
+
+    /* Width and height have no effect on inline elemtnts */
+    width:100px; 
+    height:100px; 
+}
+
+.inline-block {
+    background: lightslategray;
+    display:inline-block;
+    margin: 10px; 
+    padding: 10px; 
+    width:  100px; 
+    height: 100px;
+}
+
+/* Unlike inline. Inline-block can be givien width and height. You can use them as a grid based form to allow for making and Blocking parts off.  */
+
+.content-box {
+    background: lightskyblue; 
+    padding: 40px;
+    border: 5px solid red;
+    margin: 100px; 
+    width: 200px;
+    height: 200px; 
+}
+
+.border-box {
+    background: lightskyblue; 
+    padding: 40px;
+    border: 5px solid red;
+    margin: 100px; 
+
+    width: 200px;
+    height: 200px; 
+
+    /* border-box includes the padding and border sizes in the total width and height of the element */
+    box-sizing:border-box;
+}
+
+.square {
+    background: honeydew;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+   
+
+/* in order to make an element work you have to give it a position because it will naturally be in static. */
+}
+/* Square rule has to be first when comparing it to relative.
+
+Whenever you have two colors that connect the second one will have priority (within the relative box.) that happens because the bottom rule will always be the more specific identity.*/
+
+.relative {
+    background: rgb(109, 230, 200); 
+    position:relative; 
+    top:-50px; 
+    left:50px;
+}
+
+/* 
+
+
+In general if you wanna use a class you can always add the brackets of <p or <img and then followed by = "class" and whatever you wanna add afterwards. 
+
+RELATIVE NOTES:
+When it comes to working with relatives if you use the identity of (TOP) then it will move it down.
+
+It's almost like the opposite. Same thing applies to the left and right tools. 
+
+You should only use top or bottom/ left or right. NEVER AND/BOTH.
+
+Relative is almost like a ghost square. It will always move it from where it originated on the page.
+
+We will rarely use relative only in rare instantces when including context
+
+
+/* POSITION FIXED NOTES: 
+Fixed position will remove the element in the flow of the page. You won't be able to see it.
+
+Whenever you place the position it will bstay on the viewport of the page. so as you scroll it will always be there almost like an overlay. 
+
+If a rule is being weird like the margin for our ".fixed" you can always reset margins because the lower is overrided.
+
+Sticky Notes:
+Sticky allows for something to have a fixed position so you can scroll down and allow from it to move all round the page
+
+whenever you write in your ruleset if you add a space you can connect two rules at once to one property
+
+when we say top 0 its to stick on the top of the 0. 
+
+ABSOLUTE POSITION NOTES: 
+Its going to be positioned relative to anythin of the parent and if it has no parent/container it will use the document body. 
+
+Absolute moves and is handy if you need something where it's not dedicated to a spot.
+*/
+.fixed {
+    background: lightpink; 
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin: 0; 
+}
+
+.sticky {
+    background: yellow;
+    position:sticky; 
+    top: 0; 
+}
+
+.absolute {
+    background: rgb(251, 167, 251);
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+
+.smiley {
+    background: lightgreen;
+    width: 200px; 
+    height: 200px;
+    margin: 50px;
+    position: relative;
+}
+
+.eye {
+    background: olivedrab;
+    width: 30px; 
+    height: 30px;
+    /* in order for this element to be positioned relative to its container, the container also needs to have a position value. */
+    position:absolute;
+    left:50px;
+    top:50px;
+
+}
+
