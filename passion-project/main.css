@@ -30,7 +30,7 @@ h5 {
 img {
     display: block;
     margin: auto;
-    border: 30px solid rgb(242, 198, 36);
+    border: 5px solid rgb(242, 198, 36);
 }
 body {
     background-color: rgb(76, 6, 103);
