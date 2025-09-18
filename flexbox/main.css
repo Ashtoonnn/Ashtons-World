@@ -1,0 +1,81 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+
+.container {
+    background:lightblue;
+    padding:10px;
+    display:flex;
+
+    /* 
+    flex direction will determine the main axis:
+    row= horizontal main axis (default)
+    column= vertical main axis
+    */
+    flex-direction:row;
+
+    flex-wrap:wrap;
+
+        /* aligns items among the main axis */
+    justify-content: center;
+
+    height: 400px;
+/* align items is used for single line, none-wrappyin flexboxes. It aligns along the cross axis
+
+*/
+    align-items:center;
+
+    align-content: center;
+
+
+    gap: 10px;
+}
+
+
+.item {
+    background: bisque;
+    padding:10px;
+    border:1px solid;
+
+    width: 200px;
+    margin: 10px;
+    height: 100px;
+    display:flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+
+
+/* FlEX BOX NOTES
+
+-When creating a flex box it showcases the main containers in squares. row is left to right. column is up to down.
+
+by default flex boxes will try to maintain itself onto one line
+
+wrap-reverse: it will be the opposite (5-1)
+flex-flow: is a shorter condensened vesion of flex wrap and flow
+
+
+if you just put a basic wrap it will automatically change to columns in % form. But, in pixels the items will wrap around the container
+
+
+-flex wrap: you can change the containers as needed with this tool and it allows the elements to move to another row  
+
+-justify content: describes the alignment along the main axis
+    -If the flex orientation is vertical it can allign to the virtical (right side)
+
+    -opposite for column
+
+when you wanna center a specific part you do justify content to move the content into the middle. for align items its verticle 
+
+-justify content: based upon left to right 
+-align items: based upon up to down 
+*/

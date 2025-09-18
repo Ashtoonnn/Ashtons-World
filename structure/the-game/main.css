@@ -1,0 +1,39 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    background-color: black;
+    background-image: url(sparkle.background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    border: 60px;
+}
+
+button {
+    color: red;
+
+}
+
+.arrow {
+    position: relative;
+    top: 2px;
+    right: -500px;
+}
+
+
+p {
+    color: white;
+}
+.img1 {
+    width: 50vh;
+    position: relative;
+    right: -60vh;
+    top: 10vh;
+}
+
+.img2 {
+    width: 20vh;
+    position: relative;
+    ri

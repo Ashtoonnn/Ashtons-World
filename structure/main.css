@@ -1,0 +1,30 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background: blue;
+    background-image: url(blueversion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    border: 60px;
+    cursor: url('mouse\ .png'), auto;
+}
+
+@font-face {
+    font-family: "ele";
+    src: url("adelia.ttf");
+}
+
+.moth {
+    position: relative;
+    top: -20vw;
+    left: 14.5vw;
+}
+
+
+.homepage {
+    align-items: center;
+    background-color: 

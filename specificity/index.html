@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>Specificity</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+          header {
+               background: rgb(161, 161, 255);
+          }
+        </style>
+    </head>
+
+     <body>
+        <h1>Specificity</h1>
+
+          <header style="background: purple;">Stylesheet Specificity: <br>
+          external < embedded < inline
+          </header>
+
+          <main class="class" id="id">
+               Identifier Specificity: <br>
+          tag < class < id
+          </main>
+
+          <footer>
+               Location Specificity: <br>
+          higher < lower
+          </footer>
+
+     </body>
+</html>
