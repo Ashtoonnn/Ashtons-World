@@ -27,4 +27,33 @@ body {
 
 .homepage {
     align-items: center;
-    background-color: 
+    background-color: rgb(235, 106, 106);
+    color: rgb(255, 255, 255);
+    border: 2px solid #1f088f;
+}
+
+.homepage:hover {
+    background-color: white;
+    color: red;
+}
+
+.button2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10vh;
+    background-color: purple;
+    color: white;
+    position: relative;
+    top: -60vh;
+    right: -72vh;
+   
+
+}
+
+.fontt { 
+    position: relative;
+    top: -35vw;
+   font-family:'ele';
+   font-size: 3vw;
+   color:rgb(234, 204, 200);
+   text-align: center;
+}

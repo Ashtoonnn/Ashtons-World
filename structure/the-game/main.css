@@ -36,4 +36,62 @@ p {
 .img2 {
     width: 20vh;
     position: relative;
-    ri
+    right: -200vh;
+    top: 10vh;
+}
+
+.img3 {
+    width: 50vh;
+    position: relative;
+    right: -300vh;
+    top: -120vh;
+}
+
+.img4 {
+    width: 50vh;
+    position: relative;
+    top: 150vh;
+}
+
+.img5 {
+    width: 80vh;
+    position: relative;
+    top: 50vh;
+    right: -300vh;
+}
+
+.img6 {
+    width: 80vh;
+    position: relative;
+    top: 20vh;
+    right: -90vh;
+}
+.img7 {
+    width: 40vh;
+    position: relative;
+    top: 50vh;
+    right: -200vh;
+}
+
+
+.homepage {
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(169, 131, 253);
+    border: 2px solid #1f088f;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.homepage:hover {
+    background-color: rgb(214, 60, 249);
+    color:rgb(255, 255, 255);
+}
+
+.rules {
+    position: relative;
+    bottom: -8px;
+    left: 360px;
+}

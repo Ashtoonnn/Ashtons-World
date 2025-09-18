@@ -3,4 +3,43 @@
 }
 
 @font-face {
-    font-family:
+    font-family: "si";
+    src: url("Sunroll.ttf");
+}
+
+P {
+    font-family:'si';
+    font-size: 10vh;
+    color: rgb(200, 255, 19);
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+   background-color: black;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    border: 60px;
+}
+
+.homepage {
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(200, 255, 19);
+    border: 2px solid #1f088f;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.homepage:hover {
+    background-color: rgb(200, 255, 19);
+    color:rgb(29, 12, 90);
+}
