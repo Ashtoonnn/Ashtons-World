@@ -1,0 +1,103 @@
+* {
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: "8-bit";
+    src: url("homescreen-prj/Minecraft.ttf")
+}
+
+
+.pkmn-left {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+position: relative;
+transform: scaleX(-1);
+top: 6vh;
+
+}
+
+.pkmn-right {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+position: relative;
+top: -10vh;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -8vh;
+    padding: 10vh;
+    justify-content: space-between;
+}
+
+
+.buttons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -60vh;
+    border-spacing: 2vh;
+}
+
+.a {
+    position: relative;
+    top: -70vh;
+    left: 15vh;
+    
+}
+
+
+
+
+
+.container2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -8vh;
+    padding: 10vh;
+    justify-content: space-between;
+}
+
+
+img {
+    max-width:100%;
+}
+body {
+    background-image: url(homescreen-prj/mindowws.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    border: 90px;
+    padding: -10%;
+}
+
+.top {
+    display:flex;
+    justify-content: space-between; 
+}
+
+.top-item {
+    font-family:'8-bit';
+    position: relative;
+    font-size: 15vh;
+    width: 120%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: rgb(30, 255, 202);
+    background: rgb(51, 3, 57);
+    border-radius:  50px; 
+    padding-top: 20px;
+    top: -10vh;
+}
+
+.spacing {
+position: relative;
+right: 2px;
+}

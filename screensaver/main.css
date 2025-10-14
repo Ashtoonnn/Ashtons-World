@@ -1,0 +1,361 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    background: black;
+}
+.container {
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 2vw;
+    align-content: center;
+    right: -4vw;
+    overflow: hidden;
+}
+
+.circle {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random;
+    animation-duration: 400s;
+    animation-iteration-count: 50;
+    
+}
+
+.circle2 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random2;
+    animation-duration: 800s;
+    animation-iteration-count: 50;
+    animation-delay: 8s;
+}
+
+.circle3 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random3;
+    animation-duration: 800s;
+    animation-iteration-count: 50;
+    animation-delay: 10s;
+}
+
+.circle4 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random4;
+    animation-duration: 800s;
+    animation-iteration-count: 50;
+    animation-delay: 5s;
+}
+
+.circle5 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random5;
+    animation-duration: 800s;
+    animation-iteration-count: 50;
+    animation-delay: 15s;
+}
+
+.circle6 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random6;
+    animation-duration: 800s;
+    animation-iteration-count: 50;
+    animation-delay: 1s;
+}
+
+.circle8 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random8;
+    animation-duration: 400s;
+    animation-iteration-count: 50;
+    animation-delay: 1s;
+}
+
+@keyframes random8 {
+0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 0%;
+        top: 100%;
+    }
+
+   
+
+100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+}
+
+.circle9 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random9;
+    animation-duration: 800s;
+    animation-iteration-count: 50;
+    animation-delay: 1s;
+}
+
+@keyframes random9 {
+0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 70%;
+        top: 45%;
+    }
+
+   
+
+100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+}
+
+.circle7 {
+    background: rgb(255, 0, 0);
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    animation-name: random7;
+    animation-duration: 400s;
+    animation-iteration-count: 50;
+    animation-delay: 30s;
+}
+
+@keyframes random7 {
+0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 80%;
+        top: 50%;
+    }
+
+   
+
+100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+}
+
+@keyframes random6 {
+0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 40%;
+        top: 90%;
+    }
+
+   
+
+100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+
+}
+
+
+@keyframes random5 {
+0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 30%;
+        top: 70%;
+    }
+
+   
+
+100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+
+}
+
+@keyframes random4 {
+0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 90%;
+        top: 70%;
+    }
+
+   
+
+100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+
+}
+
+@keyframes random3 {
+0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 80%;
+        top: 100%;
+    }
+
+   
+
+100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+
+}
+
+@keyframes random2 {
+    0% {
+        width: 1vw; 
+        height: 1vw;
+        background-color: rgb(0, 0, 0);
+        left: 20%;
+        top: 40%;
+    }
+
+   
+
+    100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -320vw;
+        top: -550vw;
+    }
+    
+}
+
+
+@keyframes random {
+    0% {
+        width: 0vw; 
+        height: 0vw;
+        background-color: rgb(0, 0, 0);
+        left: 60%;
+        top: 10%;
+    }
+
+   
+
+    100% {
+        width: 540vw;
+        height: 540vw;
+        background-color: rgb(0, 0, 0);
+        left: -300vw;
+        top: -500vw;
+    }
+    
+}
+
+.box {
+    width: 10vh;
+    height: 1vh;
+    background: rgb(255, 89, 0);
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 50;
+}
+
+@keyframes move {
+   0% {
+     background-color: rgb(255, 0, 0);
+   } 
+   20% {
+    background-color: orange;
+   }
+
+   50% {
+    background-color: yellow;
+   }
+
+   75% {
+    background-color: green;
+   }
+
+   80% {
+    background-color: blue;
+   }
+   
+   100% {
+    background-color: purple;
+   }
+}

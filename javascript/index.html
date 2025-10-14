@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>Javascript Exercise
+        </title>
+        <link rel="stylesheet" href="main.css">
+
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+    </head>
+
+     <body>
+          <!-- 
+          Javascript notes:
+               -javascript does not equal java
+               -javascript is one of the most popular programming lanuages
+               -we use the 'console' tab in our devolper tools (inspect) for debugging
+
+               - you can include a new line to make multiple things happen at once
+          -->
+     
+ <button onclick="change()">Click me...</button>
+ <button onclick="glow()">glow</button>
+<div class="menu">
+  Hello World!
+</div>
+
+<div class="gear"></div>
+
+<script>
+     var menu = document.querySelector(".menu");
+
+     var gear = document.querySelector(".gear");
+
+
+     function change() {
+          console.log('nice!');
+          menu.classList.toggle("active");
+          gear.classList.toggle("spin");
+     }
+
+     function glow() {
+          menu.classList.toggle("glow");
+          gear.classList.toggle("glow");
+          document.body.classList.toggle("dark");
+     }
+
+</script>
+
+     </body>
+</html>
