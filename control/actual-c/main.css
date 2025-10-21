@@ -1,0 +1,98 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+@font-face {
+    font-family: "lol";
+    src: url("broken-up.ttf");
+}
+
+.title {
+  position: relative;
+  top: -90px;
+  text-align: center;
+  font-family: "lol";
+  font-size: 15vh;
+  color: #4e1900;
+}
+
+@font-face {
+    font-family: "elegent";
+    src: url("Newsreader-VariableFont_opsz\,wght.ttf");
+}
+.box{
+  font-family: "elegent";
+  position: relative;
+  left: 300px;
+  height: 5in;
+  width: 4in;
+  font-size: 17px;
+  top: -1.80in;
+  color: rgb(105, 7, 7);
+  line-height: 1.8;
+}
+
+body {
+    margin: 0;
+    background: rgb(255, 185, 23);
+}
+
+body.dark {
+  background: #4e1900;
+}
+
+
+.topnav {
+  overflow:hidden;
+  background-color: #4e1900;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.moon {
+  width: 4%;
+  height: 4%;
+  position:relative;
+  top: -5.12vh;
+}
+
+.topnav a {
+  float: left;
+  color: #ffa857;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  gap: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ff7700;
+  color: rgb(109, 4, 4);
+}
+
+
+
+#book{
+    margin: 5% auto;
+    width: 9in;
+    height: 7in;
+    position: relative;
+    top: -7.7in;
+}
+
+#book .turn-page{
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#book div{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
