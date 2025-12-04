@@ -1,0 +1,72 @@
+* {
+    box-sizing:border-box;
+}
+
+
+@font-face {
+    font-family: "banner";
+    src: url("SankofaDisplay-Regular.ttf");
+}
+
+body {
+background-image: url('background@300x.png ' );
+background-color: rgb(92, 6, 118);
+  height: 100%;
+margin: 0;
+}
+
+.question {
+  font-size: 40px;
+  color: rgb(253, 7, 7);
+  background-color: rgb(1, 5, 7);
+
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.flex-container {
+  position: relative; 
+  left: 50%;
+  
+}
+.hello {
+  font-family: 'banner';
+  font-size: 300px;
+  color: rgb(9, 255, 91);
+  text-align: center;
+}
+
+
+.button {
+  text-decoration: none; 
+  font-size: 50px;
+  color: rgb(64, 255, 0);
+}
+
+button {
+  font-family:'banner';
+  background: none;
+  
+}
+
+.button:hover {
+  background-color: red;
+  animation: colorChange 10s infinite;
+}
+
+@keyframes colorChange {
+     0% {
+        filter: hue-rotate(0deg) saturate(100%); 
+      }
+      100% {
+        filter: hue-rotate(180deg) saturate(150%);
+      }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+* {
+    box-sizing:border-box;
+}
+
+
+@font-face {
+    font-family: "banner";
+    src: url("SankofaDisplay-Regular.ttf");
+}
+
+body {
+background-color: rgb(55, 6, 55);
+margin: 0;
+height: 100vh;
+overflow: hidden;
+}
+
+.next {
+  text-decoration: none; 
+  font-size: 304px;
+  color: rgb(64, 255, 0);
+  height: 100px;
+  line-height: 200px;
+  position: relative; 
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+.hello {
+  font-family: 'banner';
+  position: relative;
+  font-size: 300px;
+  color: rgb(117, 255, 117);
+  text-align: center;
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+
+.next:hover {
+  color: red;
+  animation: colorChange 10s infinite;
+}
+
+@keyframes colorChange {
+     0% {
+        filter: hue-rotate(0deg) saturate(100%); 
+      }
+      100% {
+        filter: hue-rotate(180deg) saturate(150%);
+      }
+}
+
+
+.bad-flex {
+  position: relative;
+  top: 250px;
+  left: 40px;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 10%;
+  background-color: rgb(55, 6, 55);;
+  font-family: 'banner';
+  font-size: 100px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(px); }
+  50% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.marquee {
+  position: absolute;
+  top: 0%;
+  animation: verticalMarquee 30s linear infinite 
+}
+
+
+.left-one {
+  left: -20px;
+
+}
+
+.left-two {
+  left: 43px;
+  animation-delay: 1s;
+}
+
+.right-one {
+  right: 0;
+}
+
+.right-two {
+ right: 49px;
+ animation-delay: 1s;
+
+}
+
+@keyframes verticalMarquee {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -120%;
+  }
+}
+
+
+
+
+@keyframes colorShift {
+      0% {
+        filter: hue-rotate(0deg) saturate(100%); 
+      }
+      50% {
+        filter: hue-rotate(180deg) saturate(150%);
+      }
+      100% {
+        filter: hue-rotate(360deg) saturate(100%); 
+      }
+    }
+
