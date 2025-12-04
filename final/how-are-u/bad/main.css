@@ -1,0 +1,142 @@
+* {
+    box-sizing:border-box;
+}
+
+
+@font-face {
+    font-family: "banner";
+    src: url("Barrio-Regular.ttf");
+}
+
+body {
+margin: 0;
+background: linear-gradient(#1c025f, #ed1654);
+  height: 900vh;
+}
+
+p {
+  font-family: 'banner';
+  color: white;
+  text-align: center;
+}
+
+.header {
+  color: rgb(255, 191, 0);
+  font-family: 'banner';
+}
+.next {
+  text-decoration: none; 
+  font-size: 304px;
+  color: rgb(64, 255, 0);
+}
+
+.bodyy {
+  color: rgb(213, 194, 194);
+}
+.copy {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+.hello {
+  font-family: 'banner';
+  position: relative;
+  bottom: 300px;
+  font-size: 300px;
+  color: rgb(217, 255, 0);
+  text-align: center;
+}
+
+.next {
+  position: relative; 
+  top: -50vh
+}
+
+.next:hover {
+  color: red;
+  animation: colorChange 10s infinite;
+}
+
+@keyframes colorChange {
+     0% {
+        filter: hue-rotate(0deg) saturate(100%); 
+      }
+      100% {
+        filter: hue-rotate(180deg) saturate(150%);
+      }
+}
+
+
+.bad-flex {
+  position: relative;
+  top: 250px;
+  left: 40px;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img-gallery {
+  height: 2in;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.img-gallery img {
+width: 100%;
+cursor: pointer;
+transition: 1s ease;
+}
+
+.img-gallery img:hover {
+  transform: scale(0.8);
+  box-shadow: 0 32px 75px rgba(0, 8, 60, 0.2);
+}
+
+/* Wrapper */
+.imageWrapper {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.imgWrapper img video {
+  width: 90%;
+  max-width: 500px;
+}
+
+.imageWrapper span{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+video {
+ width: 90%;
+ max-width: 500px;
+ position: relative;
+ top: 5%;
+ left: 5%;
+ display: none;
+}
